@@ -9,12 +9,12 @@ README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work
 setup(
-    name="sklearn-som",
+    name="sklearn-som-3D",
     version="1.1.0",
     description="A simple planar self organizing map",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/rileypsmith/sklearn-som",
+    url="https://github.com/salwon/sklearn-som-3D.git",
     author="Riley Smith",
     author_email="",
     license="MIT",
@@ -23,7 +23,7 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=["sklearn_som"],
+    packages=["sklearn_som_3d"],
     include_package_data=True,
     install_requires=["numpy"],
 )
